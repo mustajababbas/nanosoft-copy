@@ -1,13 +1,14 @@
 :root {
-  --clr-light: #e2e2e2;
-  --clr-dark: #121212;
-  --clr-accent: #ff29c3;
-  --clr-bg: #f59e0b;
-  --clr-bg2: #ef4444;
-  --bg-color: rgb(20, 20, 20);
-  --clr-grey: #7b7992;
-  --foreground: var(--clr-dark);
-  --background: var(--clr-light);
+  --clr-primary: #231834;
+  --clr-secondary: #1dc2ef;
+  --clr-grey: #ECEFF3;
+  --clr-red:#fc5546;
+  --black: #000;
+  --white:#fff;
+
 
 }
 
+.hero-slider{
+background-color: var(--clr-primary);
+}
