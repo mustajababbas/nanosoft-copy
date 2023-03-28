@@ -1,52 +1,1279 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nanosoft</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nanosoft</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body class="">
+</head>
 
-    <div class="swiper hero-slider">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+<body class="">
+
+  <nav class="navbar navbar-expand-lg bg-light p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand my-4" href="#"><img src="assets/images/logo.png" class="img-fluid" alt="logo" ></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+     <div class="center-content">
+      <div class="nav-info py-3">
+        <a href="#">Now Hiring:</a> Are you a driven and motivated 1st Line IT Support Engineer?
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+         
+          <li class="nav-item py-20 dropdown current-menu">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item py-20 dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item py-20 dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              IT Solutions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item py-20 dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Case Studies
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item py-20 dropdown">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              IT Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item py-20">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          
+        </ul>
+       
+      </div>
+    </div> 
+
+      <div class="extras">
+          <div class="header-info-text ">
+          <div class="icons-info d-flex align-items-center">
+            <div class="icons ">
+              <img src="assets/images/conversations.svg" class="img-fluid" alt="conversations">
+          </div>
+       <div class="info">Have any questions?<br>
+            Free: <a class="dot" href="#">0712 819 79 555</a></div>
+        </div>
+      </div>
+        <ul class="navigator menu-extras position-relative ps-4">
+          <li class="search-box p-4">
+              <a href="#">
+              <i class="fa fa-search"></i>
+              </a>
+              </li>												
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="swiper hero-slider">
+    <div class="swiper-wrapper">
+
+
+      <div class="swiper-slide">
+        <div class="hero-slides">
+          <div class="hero-slides-meta align-items-start">
+            <h4 class="slides-subtitle">every device</h4>
+            <h2>managed it <br /> solutions.</h2>
+            <span class="slide-divider"></span>
+            <a href="#" class="slider-link">discover us no.1 service provider</a>
+          </div>
+
+          <img src="assets/images/office.jpg">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="hero-slides">
+          <div class="hero-slides-meta align-items-center">
+            <h2 class="text-center">managed it <br /> solutions.</h2>
+            <h5 class="slides-smalltext">every device</h5>
+            <span class="slide-divider"></span>
+            <a href="#" class="slider-link">discover us no.1 service provider</a>
+
+          </div>
+          <img src="assets/images/office.jpg">
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="hero-slides">
+          <div class="hero-slides-meta align-items-end">
+            <h4 class="slides-subtitle">every device</h4>
+            <h2 class="text-end">managed it <br /> solutions.</h2>
+            <span class="slide-divider"></span>
+            <a href="#" class="slider-link">discover us no.1 service provider</a>
+
+          </div>
+          <img src="assets/images/office.jpg">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="swiper-button-next">
+
+    </div>
+
+    <div class="swiper-button-prev">
+
+    </div>
+  </div>
+
+  <section class="about-section">
+
+
+    <div class="our-company">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h5>OUR COMPANY</h5>
+              <h3 class="text-white">NanoSoft is your trusted source in IT services and support</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="section-para">
+              <p>NanoSoft is a privately owned IT Support and IT Services business formed in 1988. Today we’re proud to
+                boast a strong team of IT engineers who thrive on rolling up their sleeves and solving your IT problems
+                and meeting your business needs.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="box-container">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="imagebox">
+              <div class="box-image">
+                <a class="box-header" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <h6 class="box-subtitle">Our services</h6>
+
+                  <h2 class="box-title">How we can help</h2>
+
+                  <div class="box-button">
+                    <span >Discover now</span>
+                  </div>
+                </a>
+
+                <a class="box-img" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <img
+                    src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/working-day-in-office-PQPMBS4-800x450.jpg"
+                    width="800" height="450" alt="working-day-in-office-PQPMBS4" title="working-day-in-office-PQPMBS4">
+                </a>
+              </div>
+
+
+            </div>
+
+            <div style="height: 60px"></div>
+
+          </div>
+
+          <div class="col-lg-4">
+            <div class="imagebox">
+              <div class="box-image">
+                <a class="box-header" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <h6 class="box-subtitle">Our services</h6>
+
+                  <h2 class="box-title">How we can help</h2>
+
+                  <div class="box-button">
+                    <span >Discover now</span>
+                  </div>
+                </a>
+
+                <a class="box-img" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <img
+                    src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/working-day-in-office-PQPMBS4-800x450.jpg"
+                    width="800" height="450" alt="working-day-in-office-PQPMBS4" title="working-day-in-office-PQPMBS4">
+                </a>
+              </div>
+
+
+            </div>
+
+            <div style="height: 60px"></div>
+
+          </div>
+
+          <div class="col-lg-4">
+            <div class="imagebox">
+              <div class="box-image">
+                <a class="box-header" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <h6 class="box-subtitle">Our services</h6>
+
+                  <h2 class="box-title">How we can help</h2>
+
+                  <div class="box-button">
+                    <span >Discover now</span>
+                  </div>
+                </a>
+
+                <a class="box-img" href="https://live.21lab.co/nanosoft/it-services/" target="_self">
+                  <img
+                    src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/05/working-day-in-office-PQPMBS4-800x450.jpg"
+                    width="800" height="450" alt="working-day-in-office-PQPMBS4" title="working-day-in-office-PQPMBS4">
+                </a>
+              </div>
+
+
+            </div>
+
+            <div style="height: 60px"></div>
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
 
-    
-    <script src="vendor/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    
+    <div class="stop-wasting">
+      <p>Stop wasting time and money on technology. <a href="">Explore our company</a></p>
+    </div>
 
-    <script>
-      var swiper = new Swiper(".hero-slider", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+  </section>
+
+  <section class="services">
+
+    <div class="container ">
+
+
+    <div class="section-title text-center">
+      <h5 class="color-gray">OUR SERVICES</h5>
+      <h3 class="">Stay Up, Stay Running, Stay Protected</h3>
+    </div>
+    <div style="height: 60px"></div>
+
+
+      <div class="row mb-5">
+
+        <div class="col-lg-4">
+          <div class="iconbox">
+
+            <h4 class="box-title">Managed IT services</h4>
+
+            <div class="box-detail">
+              <p>24/7 maintenance and monitoring that keeps your computers, servers, and systems up and running.</p>
+            </div>
+
+            <div class="box-icon">
+              <img src="assets/images/syncing-document.svg" alt="Managed IT services">
+            </div>
+
+            <div class="box-readmore">
+              <a class="" href="#">Stay up and running <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="iconbox">
+
+            <h4 class="box-title">Managed IT services </h4>
+
+            <div class="box-detail">
+              <p>24/7 maintenance and monitoring that keeps your computers, servers, and systems up and running.</p>
+            </div>
+
+            <div class="box-icon">
+              <img src="assets/images/ssd-storage.svg" alt="Managed IT services">
+            </div>
+
+            <div class="box-readmore">
+              <a class="" href="#">Stay up and running <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="iconbox">
+
+            <h4 class="box-title">Managed IT services</h4>
+
+            <div class="box-detail">
+              <p>24/7 maintenance and monitoring that keeps your computers, servers, and systems up and running.</p>
+            </div>
+
+            <div class="box-icon">
+              <img src="assets/images/private-folder.svg" alt="Managed IT services">
+            </div>
+
+            <div class="box-readmore">
+              <a class="" href="#">Stay up and running <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="stop-wasting">
+        <p>IT services built specifically for your business. <a href="">Find your solution</a></p>
+      </div>
+
+      <div class="row service-logos">
+
+        <div class="col-lg-2">
+          <img src="assets/images/uni-g.svg">
+        </div>
+
+        <div class="col-lg-2">
+          <img src="assets/images/j-g.svg">
+        </div>
+
+        <div class="col-lg-2">
+          <img src="assets/images/box-g.svg">
+        </div>
+
+        <div class="col-lg-2">
+          <img src="assets/images/fu-g.svg">
+        </div>
+
+        <div class="col-lg-2">
+          <img src="assets/images/k-g.svg">
+        </div>
+
+        <div class="col-lg-2">
+          <img src="assets/images/n-g.svg">
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+  </section>
+
+  <section class="our-projects">
+
+
+    <div class="our-industries">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="section-title">
+              <h5>INDUSTRIES WE SERVE</h5>
+              <h3 class="text-white">Managed IT services customized for your industry</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="section-para">
+              <p>Our vertical solutions expertise allows your business to streamline workflow, and increase
+                productivity. No matter the business, NanoSoft has you covered with industry compliant solutions,
+                customized to your company’s specific needs.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="d-flex industries-serve-wrapper">
+
+          <div class="industries-serve">
+
+            <div class="iconbox style4">
+
+              <div class="box-icon">
+                <img src="assets/images/dollar-badge.svg">
+              </div>
+
+              <h6 class="box-title">Banking</h6>
+              <div class="box-detail">
+                <p><span style="color: #9b9aad">Let us show you how our experience.</span></p>
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="industries-serve">
+
+            <div class="iconbox style4">
+
+              <div class="box-icon">
+                <img src="assets/images/chart.svg">
+              </div>
+
+              <h6 class="box-title">Banking</h6>
+              <div class="box-detail">
+                <p><span style="color: #9b9aad">Let us show you how our experience.</span></p>
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="industries-serve">
+
+            <div class="iconbox style4">
+
+              <div class="box-icon">
+                <img src="assets/images/data-app.svg">
+              </div>
+
+              <h6 class="box-title">Banking</h6>
+              <div class="box-detail">
+                <p><span style="color: #9b9aad">Let us show you how our experience.</span></p>
+
+              </div>
+
+
+
+            </div>
+          </div>
+          <div class="industries-serve">
+
+            <div class="iconbox style4">
+
+              <div class="box-icon">
+                <img src="assets/images/health.svg">
+              </div>
+
+              <h6 class="box-title">Banking</h6>
+              <div class="box-detail">
+                <p><span style="color: #9b9aad">Let us show you how our experience.</span></p>
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+          <div class="industries-serve">
+
+            <div class="iconbox style4">
+
+              <div class="box-icon">
+                <img src="assets/images/catalogue.svg">
+              </div>
+
+              <h6 class="box-title">Banking</h6>
+              <div class="box-detail">
+                <p><span style="color: #9b9aad">Let us show you how our experience.</span></p>
+
+              </div>
+
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+
+        <div class="section-title text-center">
+          <h5 class="">OUR SERVICES</h5>
+          <h3 class="text-white">Stay Up, Stay Running, Stay Protected</h3>
+        </div>
+
+     
+
+      </div>
+    </div>
+
+    <div class="project-wrapper">
+
+      <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-4">
+
+
+          <a href="#" class="projects-items">
+
+            <span class="mask" style="background-color: #71cbcc;"></span>
+
+            <span class="project-image">
+              <img src="assets/images/job12-288-chim-00969-800x450.jpg" alt="job12-288-chim-00969" >
+            </span>
+
+            <div class="project-info">
+              <h2 class="project-title">Cloud migration saves money for health insurer</h2>
+              <div class="project-client">
+                <img src="assets/images/uni-w.svg" alt=""></div>
+            </div>
+          </a>
+
+          
+        </div>
+
+        <div class="col-lg-4">
+
+
+          <a href="#" class="projects-items">
+
+            <span class="mask" style="background-color: #29b2fe;"></span>
+
+            <span class="project-image">
+              <img src="assets/images/job12-288-chim-00969-800x450.jpg" alt="job12-288-chim-00969" >
+            </span>
+
+            <div class="project-info">
+              <h2 class="project-title">Cloud migration saves money for health insurer</h2>
+              <div class="project-client">
+                <img src="assets/images/uni-w.svg" alt=""></div>
+            </div>
+          </a>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+          <a href="#" class="projects-items">
+
+          
+            <span class="mask" style="background-color: #8a49a1;"></span>
+
+            <span class="project-image">
+              <img src="assets/images/job12-288-chim-00969-800x450.jpg" alt="job12-288-chim-00969" >
+            </span>
+
+            <div class="project-info">
+              <h2 class="project-title">Cloud migration saves money for health insurer</h2>
+              <div class="project-client">
+                <img src="assets/images/uni-w.svg" alt=""></div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="stop-wasting">
+      <p>Find out how companies succeed with us. <a href="">Read our case studies</a></p>
+    </div>
+
+
+
+
+
+  </section>
+
+  <section class="map-section">
+
+    <div class="container">
+
+      <div class="map-wrapper">
+
+        <div class="pin-points">
+
+        
+        <img src="assets/images/map-1.svg">
+
+        <div class="drag_element tips " style="top:22.35%;left:9.84%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+
+        </div>
+
+
+        <div class="drag_element tips " style="top:14.67%;left:19.24%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+        <div class="drag_element tips " style="top:2.48%;left:34.92%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/m3.png" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+        <div class="drag_element tips " style="top:37.92%;left:25.84%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/m1.png" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+        <div class="drag_element tips " style="top:34.99%;left:49.30%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/m3.png" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+        <div class="drag_element tips " style="top:20.99%;left:60.97%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/m4.png" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+        <div class="drag_element tips " style="top:8.58%;left:78.49%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+        <div class="drag_element tips " style="top:35.89%;left:81.08%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+        <div class="drag_element tips " style="top:20.32%;left:96.00%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+        <div class="drag_element tips " style="top:51.69%;left:62.38%;">
+          <div class="point_style">
+          <div class="pins_animation " style="top:-15px;left:-15px;height:30px;width:30px"></div>
+          <img src="assets/images/004-user-1-1.svg" style="top:-15px;left:-15px" >
+        </div>
+        
+        </div>
+
+
+      </div>
+
+      <ul class="iconlist">
+          <li>
+              <div class="iconlist-wrapper">
+                <div class="iconlist-item-icon">
+                  <img src="assets/images/it-depart.svg" >
+                </div>
+
+                <div class="iconlist-item-content">
+                  <h4>We have an IT department</h4>
+                  <p>Partner with us for IT management services to grow your existing IT infrastructure<br>
+                    <a class="link" href="#">Contact us today</a>
+                  </p>
+                </div>
+              </div>
+          </li>
+        
+            <li>
+              <div class="iconlist-wrapper">
+                <div class="iconlist-item-icon">
+                  <img src="assets/images/dont-it-depart.svg">
+                </div>
+
+                <div class="iconlist-item-content">
+                  <h4>We don’t have an IT department</h4>
+                  <p>Work with us as your one-stop shop for IT management and solutions<br>
+                    <a class="link" href="#">Contact us today</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section class="our-blog">
     
-  </body>
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h5 class="color-gray">FORM OUR BLOG</h5>
+        <h3 class="">More articles from resource library</h3>
+      </div>
+
+      
+      <div class="row mt-5">
+
+        <div class="col-lg-6">
+
+          <a href="#" class="blog-post style1">		
+															
+																	
+            <div class="post-image">
+              <div class="post-meta">
+                <div class="post-avatar">
+                  <img alt="" src="assets/images/line-theme.png" height="80" width="80"></div>
+                <div class="post-author-content">
+                  <span>by</span>
+                  <span class="post-name">Linethemes</span>
+                </div>
+              </div>
+              <img class="" src="assets/images/our-blog.jpg">
+            </div>
+
+          
+        
+            <div class="post-wrap">
+              <span class="post-date">May 8, 2018</span>
+              
+              <h2 class="post-title">Partnering with IT provider helps erie manufacturing company thrive in 21st century</h2>
+              
+              <div class="post-content">Berman Bedding, Inc. has been in business since 1912. But when this mattress manufacturer started producing medical pads in the 1950s, it realized the...</div>
+              <span class="custom-btn large-btn primary-btn ">Read more</span>
+            </div>
+
+          </a>
+
+        
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row gy-5">
+
+            <div class="col-lg-6">
+
+              <a href="#" class="blog-post style2">		
+															
+																	
+                <div class="post-image">
+                  <div class="post-meta">
+                    <div class="post-avatar">
+                      <img alt="" src="assets/images/line-theme.png" height="80" width="80"></div>
+                    <div class="post-author-content">
+                      <span>by</span>
+                      <span class="post-name">Linethemes</span>
+                    </div>
+                  </div>
+                  <img class="" src="assets/images/our-blog.jpg">
+                </div>
+    
+              
+            
+                <div class="post-wrap">
+                  
+                  <h2 class="post-title">Partnering with IT provider helps erie manufacturing company thrive in 21st century</h2>
+                  <span class="post-date">May 8, 2018</span>
+            
+                </div>
+    
+              </a>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <a href="#" class="blog-post style2">		
+															
+																	
+                <div class="post-image">
+                  <div class="post-meta">
+                    <div class="post-avatar">
+                      <img alt="" src="assets/images/line-theme.png" height="80" width="80"></div>
+                    <div class="post-author-content">
+                      <span>by</span>
+                      <span class="post-name">Linethemes</span>
+                    </div>
+                  </div>
+                  <img class="" src="assets/images/our-blog.jpg">
+                </div>
+    
+              
+            
+                <div class="post-wrap">
+                  
+                  <h2 class="post-title">Partnering with IT provider helps erie manufacturing company thrive in 21st century</h2>
+                  <span class="post-date">May 8, 2018</span>
+            
+                </div>
+    
+              </a>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <a href="#" class="blog-post style2">		
+															
+																	
+                <div class="post-image">
+                  <div class="post-meta">
+                    <div class="post-avatar">
+                      <img alt="" src="assets/images/line-theme.png" height="80" width="80"></div>
+                    <div class="post-author-content">
+                      <span>by</span>
+                      <span class="post-name">Linethemes</span>
+                    </div>
+                  </div>
+                  <img class="" src="assets/images/our-blog.jpg">
+                </div>
+    
+              
+            
+                <div class="post-wrap">
+                  
+                  <h2 class="post-title">Partnering with IT provider helps erie manufacturing company thrive in 21st century</h2>
+                  <span class="post-date">May 8, 2018</span>
+            
+                </div>
+    
+              </a>
+
+            </div>
+
+            <div class="col-lg-6">
+
+              <a href="#" class="blog-post style2">		
+															
+																	
+                <div class="post-image">
+                  <div class="post-meta">
+                    <div class="post-avatar">
+                      <img alt="" src="assets/images/line-theme.png" height="80" width="80"></div>
+                    <div class="post-author-content">
+                      <span>by</span>
+                      <span class="post-name">Linethemes</span>
+                    </div>
+                  </div>
+                  <img class="" src="assets/images/our-blog.jpg">
+                </div>
+    
+              
+            
+                <div class="post-wrap">
+                  
+                  <h2 class="post-title">Partnering with IT provider helps erie manufacturing company thrive in 21st century</h2>
+                  <span class="post-date">May 8, 2018</span>
+            
+                </div>
+    
+              </a>
+
+            </div>
+            
+          </div>
+        </div>
+
+
+      </div>
+
+
+      <div class="stop-wasting mt-5">
+        <p>Insights to help you do what you do better, faster and more profitably. <a href="">View all article</a></p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="our-values">
+
+    <div class="ourvalues-wrapper">
+
+      <div class="ourvalue-content">
+
+        <h4>our values</h4>
+
+        <div class="swiper valueSlider">
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                  <h2>COMMITMENT</h2>
+              </div>
+
+              <div class="swiper-slide">
+                <h2>INNOVATION</h2>
+              </div>
+
+              <div class="swiper-slide">
+                <h2>REPUTATION</h2>
+              </div>
+
+              <div class="swiper-slide">
+                  <h2>EXCELLENCE</h2>
+              </div>
+
+          </div>
+        </div>
+
+        <h5>These values give us the foundations we need.</h5>
+
+
+        <button class="button-video" style="text-align: center;"></button>
+
+      </div>
+
+   
+    </div>
+
+  </section>
+
+  <section class="our-testimonials">
+
+
+    <div class="container">
+
+      <div class="section-title text-center">
+        <h5 class="color-gray">TESTIMONIALS</h5>
+        <h3 class="">What our customers say</h3>
+      </div>
+
+
+      <div class="swiper testimonialSlider">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+
+            <div class="testimonial" style="  border-top-color: #0894d8;">
+              <div class="testimonial-wrap">
+                <div class="testimonial-content">
+                  
+                  <div class="testimonial-image">
+                    <img src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg" alt="John H. Bedard, Jr" data-lazy-src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg">
+                  </div>
+                  <div class="testimonial-text">
+                    <p>“I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape”</p>
+                  </div>
+                </div>
+          
+                <div class="author-info">
+                  <h6 class="author-name">John H. Bedard, Jr</h6>
+                  <span class="subtitle">Office Manager</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial" style="  border-top-color:#0894d8;">
+              <div class="testimonial-wrap">
+                <div class="testimonial-content">
+                  
+                  <div class="testimonial-image">
+                    <img src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg" alt="John H. Bedard, Jr" data-lazy-src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg">
+                  </div>
+                  <div class="testimonial-text">
+                    <p>“I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape”</p>
+                  </div>
+                </div>
+          
+                <div class="author-info">
+                  <h6 class="author-name">John H. Bedard, Jr</h6>
+                  <span class="subtitle">Office Manager</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial" style="  border-top-color:#e60d2d;">
+              <div class="testimonial-wrap">
+                <div class="testimonial-content">
+                  
+                  <div class="testimonial-image">
+                    <img src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg" alt="John H. Bedard, Jr" data-lazy-src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg">
+                  </div>
+                  <div class="testimonial-text">
+                    <p>“I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape”</p>
+                  </div>
+                </div>
+          
+                <div class="author-info">
+                  <h6 class="author-name">John H. Bedard, Jr</h6>
+                  <span class="subtitle">Office Manager</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="swiper-slide">
+
+            <div class="testimonial" style="  border-top-color:  #1975d2;">
+              <div class="testimonial-wrap">
+                <div class="testimonial-content">
+                  
+                  <div class="testimonial-image">
+                    <img src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg" alt="John H. Bedard, Jr" data-lazy-src="https://live.21lab.co/nanosoft/wp-content/uploads/2018/09/j-c.svg">
+                  </div>
+                  <div class="testimonial-text">
+                    <p>“I sleep easier at night knowing the NanoSoft team is in my corner. Supporting my business and keeping my systems in Tip-Top shape”</p>
+                  </div>
+                </div>
+          
+                <div class="author-info">
+                  <h6 class="author-name">John H. Bedard, Jr</h6>
+                  <span class="subtitle">Office Manager</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <div class="top-footer">
+			<div class="top-footer-wrap">
+				
+					
+					<div class="top-footer-content">
+
+            <h3 class="top-footer-subtitle">Let’s get started</h3>			
+          
+            <h2 class="top-footer-title">Are you ready for a better, more productive business?</h2>
+            <p class="top-footer-para">Stop worrying about technology problems. Focus on your business.<br>
+            Let us provide the support you deserve.</p>
+
+            <a href="#" class="custom-btn secondary-btn">Contact us Now</a>
+
+		      
+					</div>
+
+
+			</div>
+
+		</div>
+
+    <div class="footer-mid">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="footer-logo">
+
+              <a href="#">
+                <img src="assets/images/ft-logo.png" height="60" width="60">
+              </a>
+
+              <p>Beverley Rd Brooklyn, New York 1226 US<br>
+                P:<a href="#">+ (0712) 819 79 555</a>&nbsp; | M: <a href="#">info@example.com</a>
+              </p>
+            </div>
+
+            <div class="social-icons">
+              <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <ul class="footer-menu">
+
+              <li class="top-footer-item">
+                <a href="#">IT Services</a>
+                <ul class="footer-sub-menu">
+                  <li class="footer-menu-item"><a href="#">Managed IT</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Support</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Consultancy</a></li>
+                  <li class="footer-menu-item"><a href="#">Cloud Computing</a></li>
+                  <li class="footer-menu-item"><a href="#">Cyber Security</a></li>
+                  <li class="footer-menu-item"><a href="#">Custom Software</a></li>
+                </ul>
+              </li>
+
+
+              <li class="top-footer-item">
+                <a href="#">IT Services</a>
+                <ul class="footer-sub-menu">
+                  <li class="footer-menu-item"><a href="#">Managed IT</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Support</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Consultancy</a></li>
+                  <li class="footer-menu-item"><a href="#">Cloud Computing</a></li>
+                  <li class="footer-menu-item"><a href="#">Cyber Security</a></li>
+                  <li class="footer-menu-item"><a href="#">Custom Software</a></li>
+                </ul>
+              </li>
+
+
+              <li class="top-footer-item">
+                <a href="#">IT Services</a>
+                <ul class="footer-sub-menu">
+                  <li class="footer-menu-item"><a href="#">Managed IT</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Support</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Consultancy</a></li>
+                  <li class="footer-menu-item"><a href="#">Cloud Computing</a></li>
+                  <li class="footer-menu-item"><a href="#">Cyber Security</a></li>
+                  <li class="footer-menu-item"><a href="#">Custom Software</a></li>
+                </ul>
+              </li>
+
+              <li class="top-footer-item">
+                <a href="#">IT Services</a>
+                <ul class="footer-sub-menu">
+                  <li class="footer-menu-item"><a href="#">Managed IT</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Support</a></li>
+                  <li class="footer-menu-item"><a href="#">IT Consultancy</a></li>
+                  <li class="footer-menu-item"><a href="#">Cloud Computing</a></li>
+                  <li class="footer-menu-item"><a href="#">Cyber Security</a></li>
+                  <li class="footer-menu-item"><a href="#">Custom Software</a></li>
+                </ul>
+              </li>
+            
+              </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="copyright-footer">
+
+      <div class="copyright-content">
+        Copyright © <span id="current-year"></span> NanoSoft. Designed and Developed by <a href="#">LineThemes</a> Only on <a href="#">Envato Market.</a>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="vendor/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <script>
+    var swiper = new Swiper(".hero-slider", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+
+    var swiper2 = new Swiper(".valueSlider", {
+      spaceBetween: 30,
+      slidesPerView: 1,
+      loop:true,
+      autoplay: {
+      delay: 2000,
+      reverseDirection:true,
+      }
+    });
+
+    var swiper3 = new Swiper(".testimonialSlider", {
+
+      slidesPerView: 3,
+      loop:false,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+     
+    });
+
+  </script>
+
+</body>
 
 </html>
