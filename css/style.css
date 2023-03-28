@@ -17,19 +17,19 @@
 
 @font-face {
   font-family: "Sailec-Bold";
-  src: url(/assets/fonts/Sailec-Bold.otf) format("opentype");
+  src: url(../assets/fonts/Sailec-Bold.otf) format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Sailec-Medium";
-  src: url(/assets/fonts/Sailec-Medium.otf) format("opentype");
+  src: url(../assets/fonts/Sailec-Medium.otf) format("opentype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "Sailec";
-  src: url(/assets/fonts/Sailec.otf) format("opentype");
+  src: url(../assets/fonts/Sailec.otf) format("opentype");
   font-weight: normal;
 }
 
@@ -968,7 +968,7 @@ position: static;
 .map-section {
   padding-top: 20px;
   padding-bottom: 60px;
-  background-image: url(/assets/images/bg-team.jpg);
+  background-image: url(../assets/images/bg-team.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -1290,7 +1290,7 @@ line-height: 26px;
 
 
 .our-values{
-  background: url(/assets/images/10.jpg);
+  background: url(../assets/images/10.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1484,7 +1484,7 @@ border-radius: 20px;
 
 .top-footer {
   background-color: var(--white);
-  background-image: url(/assets/images/content-bottom-bg.jpg);
+  background-image: url(../assets/images/content-bottom-bg.jpg);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 100% auto;
