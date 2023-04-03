@@ -27,7 +27,7 @@ $(".worktabs").on("click","a",function(e){
 
 
 $( function() {
-  var $grid = $('.grid').isotope({
+  var $grid = $('.case-studies').isotope({
     itemSelector: 'article'
   });
 
